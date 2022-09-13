@@ -31,10 +31,60 @@
 			
 			<div class="wrapper-btn">
 				<h1>Мы поможем решить вашу задачу</h1>
-				<button>Начать</button>
+				<button class="button" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">Начать</button>
 			</div>
 	
+			
+			
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Напишите ваше Техническое задание</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+					
+						<textarea class="textarea" name="user-message"  > </textarea>
+
+						<div class="quiz">
+							<div class="quiz-contact">
+								<p>Ваши контакты <br>
+									<textarea class="user-name _req" name="user-name"  > </textarea>
+								</p>
+								<button type="button" class="button btn-send" data-bs-dismiss="modal">Отправить</button>
+							</div>
+							
+							<div class="quiz__form">
+								<input class="quiz__form-file" id="quiz__file" type="file" name="quiz__file[]" multiple="">
+								<label class="quiz__form-file-button" for="quiz__file">
+									<span class="input__file-icon-wrapper">
+										<img class="input__file-icon" src="img/paper-clip.jpg" alt="Прикрепить файл" width="25">
+									</span>
+									<span class="input__file-button-text">Прикрепить файл</span>
+								</label>
+							</div>
+						</div>
+						
+						
+
+						
+
+
+					</div>
+					<div class="modal-footer">
+						
+					</div>
+				</div>
+				</div>
+			</div>
+
+
+
 		</div>
+
+
 		
 		@@include('html/_js.html',{})
 	</body>

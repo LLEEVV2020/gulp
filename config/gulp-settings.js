@@ -36,13 +36,13 @@ export const path = {
 
 // Настройка FTP соединения
 export const configFTP = {
-	/*host: "e91713b6.beget.tech", // Адрес FTP сервера
-	user: "e91713b6_tesst", // Имя пользователя
-	password: "l8BP1&9%", // Пароль*/
-
 	host: "e91713b6.beget.tech", // Адрес FTP сервера
+	user: "e91713b6_tesst", // Имя пользователя
+	password: "l8BP1&9%", // Пароль
+
+	/*host: "e91713b6.beget.tech", // Адрес FTP сервера
 	user: "e91713b6_teesss", // Имя пользователя
-	password: "guHJ%5J&", // Пароль
+	password: "guHJ%5J&", // Пароль*/
 
 	parallel: 5 // Кол-во одновременных потоков
 }
